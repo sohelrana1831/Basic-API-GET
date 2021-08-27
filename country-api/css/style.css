@@ -1,0 +1,18 @@
+#country-details {
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  box-shadow: 10px 8px 10px 10px #000;
+  background-color: azure;
+  height: auto;
+}
+#section-area {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.country {
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid thistle;
+  border-radius: 10px;
+}
